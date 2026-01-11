@@ -8,4 +8,12 @@
     <loc>https://georgedelair.com/meet/</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://georgedelair.com/blog/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://georgedelair.com/blog/welcome-to-georgedelair-com/</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
