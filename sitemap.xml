@@ -16,4 +16,8 @@
     <loc>https://georgedelair.com/blog/welcome-to-georgedelair-com/</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://georgedelair.com/blog/node-playground/</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
