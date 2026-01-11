@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="George DeLair — web developer & automation consultant. I build fast websites, SEO-minded systems, and workflow automations for real businesses." />
+    <title>George DeLair</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Masthead -->
+    <header class="masthead">
+        <div class="container masthead-grid">
+            <!-- Left: Brand + Nav -->
+            <div class="masthead-left">
+                <a class="brand" href="/">GEORGE DELAIR</a>
+
+                <nav class="nav" aria-label="Primary navigation">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About George</a>
+                    <a href="https://blog.georgedelair.com" class="nav-link">Blog</a>
+                    <a href="https://experiments.georgedelair.com/" class="nav-link">Experiments</a>
+                    <a href="/meet/" class="nav-link">Meet with George</a>
+                </nav>
+            </div>
+
+            <!-- Center: Social -->
+            <div class="masthead-center" aria-label="Social links">
+                <a class="icon-link" href="https://www.linkedin.com/in/gdelair/" target="_blank"
+                    rel="noopener noreferrer" aria-label="LinkedIn">
+                    <!-- LinkedIn -->
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1s2.5 1.12 2.5 2.5ZM.5 24h4V7.98h-4V24ZM8.5 7.98h3.83v2.19h.05c.53-1 1.83-2.19 3.77-2.19C20 7.98 22 10.2 22 14.78V24h-4v-8.09c0-1.93-.03-4.41-2.69-4.41-2.69 0-3.1 2.1-3.1 4.27V24h-4V7.98Z">
+                        </path>
+                    </svg>
+                </a>
+
+                <a class="icon-link" href="https://www.instagram.com/georgedelair/" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram">
+                    <!-- Instagram -->
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm6.25-2.6a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z">
+                        </path>
+                    </svg>
+                </a>
+
+                <a class="icon-link" href="https://www.threads.net/@georgedelair" target="_blank"
+                    rel="noopener noreferrer" aria-label="Threads">
+                    <!-- Threads-ish (simple @ icon) -->
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm0 3.1c2.08 0 3.83 1.35 4.45 3.22h-2.1A2.8 2.8 0 0 0 12 7.2c-1.55 0-2.8 1.25-2.8 2.8 0 1.54 1.25 2.8 2.8 2.8.96 0 1.8-.48 2.3-1.2h2.1c-.62 1.87-2.37 3.22-4.45 3.22A4.9 4.9 0 0 1 7.1 10 4.9 4.9 0 0 1 12 5.1Zm6.2 11.2c-.9 1.75-2.72 2.95-4.8 2.95-2.96 0-5.35-2.4-5.35-5.35h2.05c0 1.83 1.48 3.3 3.3 3.3 1.3 0 2.42-.75 2.95-1.85h1.85Z">
+                        </path>
+                    </svg>
+                </a>
+
+                <a class="icon-link" href="https://www.youtube.com/@GeorgeDeLair" target="_blank"
+                    rel="noopener noreferrer" aria-label="YouTube">
+                    <!-- YouTube -->
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M21.6 7.2a3 3 0 0 0-2.12-2.12C17.8 4.6 12 4.6 12 4.6s-5.8 0-7.48.48A3 3 0 0 0 2.4 7.2 31.4 31.4 0 0 0 2 12s.12 3.2.4 4.8a3 3 0 0 0 2.12 2.12c1.68.48 7.48.48 7.48.48s5.8 0 7.48-.48a3 3 0 0 0 2.12-2.12c.28-1.6.4-4.8.4-4.8s-.12-3.2-.4-4.8ZM10 15V9l6 3-6 3Z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Right: empty (keeps center aligned like your current layout) -->
+            <div class="masthead-right"></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="rule"></div>
+
+        <!-- Portfolio list (index-style) -->
+        <section class="index" aria-label="Portfolio">
+            <div class="section-grid section-header-only">
+                <h3 class="section-title">My Work</h3>
+            </div>
+
+            <a class="entry" href="https://node-playground.com/" target="_blank" rel="noopener noreferrer">
+                <h2 class="entry-title">node playground</h2>
+                <div class="entry-meta">
+                    <div class="entry-meta-top">iOS App</div>
+                    <div class="entry-meta-bottom">node-playground.com</div>
+                </div>
+            </a>
+
+            <a class="entry" href="https://dodgeridge.com/" target="_blank" rel="noopener noreferrer">
+                <h2 class="entry-title">Dodge Ridge</h2>
+                <div class="entry-meta">
+                    <div class="entry-meta-top">Website</div>
+                    <div class="entry-meta-bottom">dodgeridge.com</div>
+                </div>
+            </a>
+
+            <a class="entry" href="https://wayfinancial.com/" target="_blank" rel="noopener noreferrer">
+                <h2 class="entry-title">Way Financial</h2>
+                <div class="entry-meta">
+                    <div class="entry-meta-top">Website</div>
+                    <div class="entry-meta-bottom">wayfinancial.com</div>
+                </div>
+            </a>
+        </section>
+
+        <div class="rule rule-thick"></div>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="section-grid">
+                <h3 class="section-title">About George</h3>
+                <div class="section-body">
+                    <p class="lede">
+                        I’m a web developer and automation consultant who helps businesses build a modern web presence
+                        and remove
+                        friction from day-to-day workflows.
+                    </p>
+                    <p>
+                        My work typically blends <strong>strategy</strong>, <strong>custom development</strong>,
+                        <strong>SEO-minded implementation</strong>, and <strong>automation</strong> so
+                        teams can convert better and spend less time on repetitive tasks.
+                    </p>
+                    <p>
+                        I’ve worked across industries (including financial services and hospitality) and I care a lot
+                        about building
+                        systems that are dependable, easy to maintain, and designed for real-world use.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="rule"></div>
+
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="section-grid">
+                <h3 class="section-title">Services</h3>
+                <div class="section-body">
+                    <ul class="service-list">
+                        <li class="service">
+                            <div class="service-name">Web Development</div>
+                            <div class="service-desc">Fast, clean websites and custom web applications with a focus on
+                                performance and
+                                usability.</div>
+                        </li>
+                        <li class="service">
+                            <div class="service-name">Automation & Integrations</div>
+                            <div class="service-desc">CRM integrations, email workflows, and custom automations to
+                                handle lead follow-up,
+                                routing, tagging, and
+                                reporting.</div>
+                        </li>
+                        <li class="service">
+                            <div class="service-name">Ongoing Support</div>
+                            <div class="service-desc">Maintenance, improvements, and “keep it running” support so your
+                                site stays
+                                healthy and current.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="rule"></div>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="section-grid">
+                <h3 class="section-title">Contact</h3>
+                <div class="section-body">
+                    <p class="lede">If you’ve got a site that needs a serious upgrade—or workflows eating your
+                        time—let’s talk.</p>
+
+                    <div class="contact-grid">
+                        <div class="contact-block">
+                            <div class="label">Email</div>
+                            <a class="contact-link" href="mailto:hello@georgedelair.com">hello@georgedelair.com</a>
+                        </div>
+
+                        <div class="contact-block">
+                            <div class="label">Meet</div>
+                            <a class="contact-link" href="/meet/">Book a call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© George DeLair</p>
+        </footer>
+    </main>
+</body>
+
+</html>
