@@ -103,6 +103,17 @@ a:focus-visible {
     text-underline-offset: 6px;
 }
 
+.nav-link.nav-experiments {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(10, 10, 10, 0.1);
+    color: rgba(10, 10, 10, 0.5);
+}
+
+.nav-link.nav-experiments:hover {
+    color: var(--fg);
+}
+
 /* Center social icons */
 .masthead-center {
     display: flex;
