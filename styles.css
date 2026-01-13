@@ -583,6 +583,13 @@ a:focus-visible {
     color: var(--muted);
 }
 
+.post-content .post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 24px 0;
+}
+
 .post-nav {
     margin-top: clamp(48px, 6vw, 80px);
     padding-top: clamp(28px, 4vw, 48px);
