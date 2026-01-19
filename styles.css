@@ -154,6 +154,17 @@ a:focus-visible {
     width: 100%;
 }
 
+.nav-link-subtle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a5a099;
+    transition: color 0.3s ease;
+}
+
+.nav-link-subtle:hover {
+    color: var(--muted);
+}
+
 /* ========================================
    HERO (Homepage only)
    ======================================== */
